@@ -1,0 +1,25 @@
+{
+    "name": "softbox/yii",
+    "description": "Yii permissions handler",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rod",
+            "email": "rodsaseg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "framework/"
+        },
+        "classmap": ["framework"]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
